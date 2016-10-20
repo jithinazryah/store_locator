@@ -16,7 +16,7 @@ class databaseConnection {
         protected $host = 'Localhost';
         protected $userName = 'root';
         protected $password = 'mysql';
-        protected $dbName = 'emperor';
+        protected $dbName = 'store_locator';
 
         public function connect() {
 

@@ -1,6 +1,6 @@
 <?php
-include  dirname(__FILE__).'/model/adminModel.php';
+include  dirname(__FILE__).'/model/userModel.php';
 
-$obj = new adminModel;
+$obj = new userModel;
 $obj->test();
 

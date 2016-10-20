@@ -23,7 +23,7 @@ class adminModel {
         }
         
         public function test(){
-               mysqli_query($this->con,'select * from admin_posts'); 
+               mysqli_query($this->con,'select * from admin_posts');
         }
 
 }
