@@ -1,5 +1,5 @@
 <?php
-include  dirname(__FILE__).'/../model/adminModel.php';
+include  dirname(__FILE__).'/../controller/adminController.php';
 
-$obj = new adminModel;
-$obj->test();
+$conroller = new adminController;
+echo $conroller->model->test();exit;

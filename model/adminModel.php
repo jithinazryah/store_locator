@@ -14,15 +14,17 @@
 include  dirname(__FILE__).'/../model/databaseConnection.php';
 class adminModel {
 
-        protected $con;
+        public $con;
+        public $conn;
 
         public function __construct() {
-                
+                $this->conn = 'jithin';
                $obj = new databaseConnection;
                $this->con = $obj->connect();
         }
         
         public function test(){
+                echo "testingg";exit;
                mysqli_query($this->con,'select * from admin_posts');
         }
 
